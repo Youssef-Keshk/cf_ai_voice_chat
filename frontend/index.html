@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voice Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>AI Assistant</h1>
+        </header>
+
+        <div class="messages-area" id="messages">
+            <div class="message ai-message">
+                <div class="message-content">Hello! I'm your AI assistant. How can I help you today?</div>
+            </div>
+        </div>
+
+        <div id="speaking-viz" class="speaking-overlay">
+            <div class="bar" style="animation-delay: 0.0s"></div>
+            <div class="bar" style="animation-delay: 0.1s"></div>
+            <div class="bar" style="animation-delay: 0.2s"></div>
+            <div class="bar" style="animation-delay: 0.3s"></div>
+            <div class="bar" style="animation-delay: 0.4s"></div>
+        </div>
+
+        <div class="input-area">
+            <button id="record-btn" class="icon-btn" aria-label="Record Voice">
+                🎤
+            </button>
+            <input type="text" id="message-input" placeholder="Type a message..." autocomplete="off">
+            <button id="send-btn" class="icon-btn send-btn" aria-label="Send Message">
+                ➤
+            </button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
