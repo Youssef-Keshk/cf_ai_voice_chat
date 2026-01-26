@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "cf_ai_voice_chat",
+  "name": "cf-ai-voice-chat",
   "main": "src/index.ts",
   "compatibility_date": "2024-09-23",
   "compatibility_flags": [
