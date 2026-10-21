@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://cf-ai-voice-chat.youssefkeshk001.workers.dev';
+const API_BASE_URL = 'https://cf_ai_voice_chat.youssefkeshk001.workers.dev';
 
 // Session persistence
 let sessionId = localStorage.getItem('chatSessionId') || 'session_' + Math.random().toString(36).substring(2, 9);
