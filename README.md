@@ -25,7 +25,7 @@ The application is built using a distributed architecture that leverages Edge Co
 ## Getting Started
 
 ### Live Deployment
-- **Live Application**: [live-chat](https://cf32f693.cf-ai-voice-chat.pages.dev/)
+- **Live Application**: [live-chat](https://cf-ai-voice-chat.pages.dev/)
 
 The frontend is hosted via Cloudflare Pages and interfaces with a Cloudflare Worker backend for AI inference and state persistence.
 
