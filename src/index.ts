@@ -26,7 +26,7 @@ export default {
         const history = await stub.getHistory();
 
         // Process conversation using Llama 3
-        const aiResponse = await env.AI.run("@cf/meta/llama-3-8b-instruct", {
+        const aiResponse = await env.AI.run("@cf/meta/llama-3.1-8b-instruct-fast", {
           messages: [
             { role: "system", content: "You are a concise, witty, and helpful engineering assistant." },
             ...history,
